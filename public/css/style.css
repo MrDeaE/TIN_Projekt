@@ -1,0 +1,420 @@
+.body{
+  background-color: white;
+}
+
+
+.upsection-items {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  z-index: 100;
+  background-color: white;
+}
+
+.upsection-wrap {
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  background-color: white;
+  margin-right: 6vw;
+  margin-left: 6vw;
+}
+
+a{
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.blue-banner{
+width: 100%;
+height: 30px;
+background: blue;
+display: flex;
+z-index: 900;
+}
+
+.studio-fryzjerskie-h1{
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+color: black;
+}
+
+.studio-fryzjerskie-h1:hover{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  }
+
+  .blue-banner{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #42a5f5;
+    padding-left: 20px;
+    display: flex;
+    align-self: center;
+    
+  }
+ 
+#blue-banner a:link{ color:#134896; } 
+#blue-banner a:visited{ color:#ffffff; } 
+div#blue-banner a:hover{ color:#942A5F; } 
+#blue-banner a:active{ color:#6FB25C}
+
+  /* .blue-banner .a{
+    color: white;
+    text-decoration: none;
+  }
+  .blue-banner.a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  .blue-banner .a:visited{
+    color: white;
+    text-decoration: underline;
+  }
+  .blue-banner.a:active{
+    color: white;
+    text-decoration: underline;
+  } */
+
+  h3{
+    height: 30px;
+    margin: 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .main-section{
+    margin: 50px;
+    margin-top:140px;
+  }
+
+  .myform{
+    min-width: 40vw;
+    max-width: 55vw;
+    padding: 20px;
+    display: inline-block;
+    background-color: #80d6ff;
+    border-radius: 4px;
+    /* margin-top:110px; */
+  }
+
+  input{
+    /* padding: 50px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-color: blue;
+    
+  }
+
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .confirm-button {
+    background-color: #42a5f5;
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: flex-start;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  .edit-button {
+    background-color: #42a5f5; 
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: flex-start;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  .delete-button {
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: flex-start;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .settings-button{
+    background-color: #42a5f5; 
+    border: none;
+    color: white;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: flex-start;
+    font-size: 16px;
+    border-radius: 4px;
+    margin:30px;
+  }
+
+  p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14;
+  }
+
+  .mod-settings{
+    display:flex;
+  }
+  .select-hairdresser{
+    display: grid;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-site-number{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+  }
+
+  .table-appointments{
+    display: flex;
+    align-items: center;
+  }
+
+.p-white{
+  color:white;
+  background-color: white;
+}
+
+.upsection{
+  position: fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  z-index: 100;
+  color:white;
+  height:40px;
+}
+
+.right-section{
+  background-color: white;  
+ width: 25vw;
+ position: fixed;
+ bottom:0px;
+ right:0px;
+ top:0px;
+ z-index: 1;
+ display: grid;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ border:1px
+}
+
+.white-div{
+  background:white;
+  width:25%;
+  height:24%;
+}
+
+.img-main{
+  max-width: 100%;
+  max-height: 100%;
+  margin:4px;
+}
+
+.main-body{
+display: flex;
+justify-content: center;
+}
+
+.wrapper{
+  background: #80d6ff;
+width:75vw;
+position: absolute;
+margin-top:110px;
+z-index: 50;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mycolumn{
+  max-width: 50%;
+  margin: 20px;
+}
+
+.img-full{
+max-width: 100%;
+align-self: center;
+}
+
+  .tg  {border-collapse:collapse;border-spacing:0;}
+  .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+  .tg th{background-color:#42a5f5; font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+  .tg .tg-cly1{text-align:center;vertical-align:middle; align-items: center;}
+  
+
+
+
+  /* Popup box BEGIN */
+.hover_bkgr_fricc{
+  background:rgba(0,0,0,.4);
+  cursor:pointer;
+  display:none;
+  height:100%;
+  position:fixed;
+  text-align:center;
+  top:0;
+  width:100%;
+  z-index:10000;
+}
+.hover_bkgr_fricc .helper{
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 551px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 60%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 5%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_fricc {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/* Popup box BEGIN */
+
+
+/* calendar style */
+
+div.title {
+  font: x-large Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 40px;
+  background-color: white;
+  color: black;
+  }
+/* Styling for the footer */
+div.footer {
+  font: small Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  }
+/* Styling for the overall table */
+table {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  }
+/* Styling for the column headers (days of the week) */
+th {
+  padding: 0 0.5em;
+  text-align: center;
+  background-color:gray;
+  color:white;
+  }
+/* Styling for the individual cells (days) */
+td  {     
+  font-size: medium;
+  padding: 0.25em 0.25em;   
+  width: 14%; 
+  height: 80px;
+  text-align: left;
+  vertical-align: top;
+  }
+/* Styling for the date numbers */
+.date  {     
+  font-size: large;
+  padding: 0.25em 0.25em;   
+  text-align: left;
+  vertical-align: top;
+  }
+/* Class for individual days (coming in future release) */
+.sun {
+   color:red;
+   }
+/* Hide the month element (coming in future release) */
+th.month {
+  visibility: hidden;
+  display:none;
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 20%;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

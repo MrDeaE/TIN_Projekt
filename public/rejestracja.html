@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8">
+    <title>Studio fryzjerskie
+    </title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+   
+
+
+<!-- Nagłówek -->
+
+  <div class="upsection">
+    <div class="upsection-items"><a href="index.html" class="studio-fryzjerskie-h1"><h1>Studio fryzjerskie</h1></a>
+      <div class="upsection-wrap">
+        <nav role="navigation" class="upsection-items">
+          <a href="rejestracja.html" class="rejestracja">Rejestracja</a>
+          <a href="zaloguj.html" class="zaloguj">Zaloguj</a>
+      </div>
+    </div>
+
+  <div class="blue-banner">
+<a href="index.html">Home</a><h3>></h3><a href="rejestracja.html">Rejestracja</a>
+  </div>
+</div>
+
+<div class="main-section">
+  <form class="myform" name="rejestracja_form" action="/main" method="POST" onsubmit="return validateSignup()">
+      <label class="label-name" for="name">Imię:</label> <br>
+      <input class="input-surname" name="surname" id="fname" type="text"/> <br>  
+      <p style="color:red; font-size: 14px; margin: 2px;"><span id="red-alert-fname"></span></p>
+
+    <label class="label-username" for="username">Nazwisko:</label> <br>
+      <input class="input-username" name="username" id="signup-surname" type="text"/> <br>  
+      <p style="color:red; font-size: 14px; margin: 2px;"><span id="red-alert-ssurname"></span></p>
+
+      <label class="label-username" for="username" >Username:</label> <br>
+      <input class="input-username" name="username" type="text" id="signup-username"/> <br>
+      <p style="color:red; font-size: 14px; margin: 2px;"><span id="red-alert-username"></span></p>
+
+      <label class="label-password" for="password">Hasło:</label> <br>
+      <input class="input-password" name="password" id="fpassword" type="password"/> <br>
+
+      <label class="label-password" for="password">Powtórz Hasło:</label> <br>
+      <input class="input-password" name="spassword" id="spassword" type="password"/> <br>
+      <p style="color:red; font-size: 14px; margin: 2px;"><span id="red-alert-password"></span></p>
+
+      <label class="label-password" for="password">Mail:</label> <br>
+      <input class="input-password" name="password" id="mail" type="email"/> <br>
+
+      <label class="label-password" for="password">Numer telefonu:</label> <br>
+      <input class="input-password" name="password" id="phone" type="text"/> <br>
+      <p style="color:red; font-size: 14px; margin: 2px;"><span id="red-alert-phone"></span></p>
+
+      <input type="submit" value="Potwierdź" class="confirm-button">
+    <a href="index.html" class="delete-button">Anuluj</a>
+
+  </form>
+  <p style="color:red; font-size: 14px; margin: 2px;"><span id="red-alert"></span></p>
+</div>
+
+  </body>
+  <script src="js/form-validation.js"></script>
+</html>
+

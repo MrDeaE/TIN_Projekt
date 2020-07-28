@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8">
+    <title>Studio fryzjerskie
+    </title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+  <body>
+   
+
+
+<!-- Nagłówek -->
+
+  <div class="upsection">
+    <div class="upsection-items"><a href="index.html" class="studio-fryzjerskie-h1"><h1>Studio fryzjerskie</h1></a>
+      <div class="upsection-wrap">
+        <nav role="navigation" class="upsection-items">
+          <a href="rejestracja.html" class="rejestracja">Rejestracja</a>
+          <a href="zaloguj.html" class="zaloguj">Zaloguj</a>
+      </div>
+    </div>
+
+  <div class="blue-banner">
+<a href="index.html">Home</a><h3>></h3><a href="zaloguj.html">Logowanie</a>
+  </div>
+</div>
+
+<div class="main-section">
+  <form class="myform" name="zaloguj_form" action="/main" method="POST" onsubmit="return validateLogin()">
+      <!-- <form class="myform" action="rejestracja.html" onsubmit="return validateForm()" method="GET"> -->
+     
+    <label class="label-username" for="username" >Username:</label> <br>
+      <input class="input-username" name="username" type="text" id="username"/> <br>
+
+      <label class="label-password" for="password">Hasło:</label> <br>
+      <input class="input-password" name="password" type="password" id="password"/> <br>
+
+      <!-- <input type="submit" value="Potwierdź" class="confirm-button"> -->
+    <a href="/main" class="confirm-button">Potwierdź</a>
+    <a href="index.html" class="delete-button">Anuluj</a>
+
+  </form>
+  <p style="color:red; font-size: 14px; margin: 2px;"><span id="red-alert"></span></p>
+</div>
+
+
+<script>
+    function validateLogin(){
+      var username = document.forms["zaloguj_form"]["username"].value;
+      var password = document.forms["zaloguj_form"]["password"].value;
+    
+      if(username == "" || password == ""){
+      changeRedAlert("Login lub hasło jest nieprawidłowe.");
+      changeBorderRed("username");
+      changeBorderRed("password");
+      return false;
+      } else{
+        changeRedAlert("");
+        changeBorderWhite("username");
+        changeBorderWhite("password");
+      }
+    }
+    
+    function changeRedAlert(msg){
+      document.getElementById("red-alert").innerHTML = msg;
+    }
+    function changeBorderRed(name){
+      document.getElementById(name).style.border = "2px solid #f44336";
+    }
+    function changeBorderWhite(name){
+      document.getElementById(name).style.border = "2px solid white";
+    }
+    </script>
+
+  </body>
+
+</html>
+
